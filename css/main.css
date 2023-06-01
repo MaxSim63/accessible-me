@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: rgb(182, 182, 182);
+  /* Lighter gray backround to create more/easier to read contrast */
   margin: 0;
   padding: 0;
 }
@@ -70,8 +71,30 @@ form button {
   padding: 2rem 0;
 }
 
-.maincontent {
+.skip-link {
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: larger;
+  font-size: 1rem;
+  position: absolute;
+  background-color: black;
+  color: rgb(182, 182, 182);
+  padding: 10px;
+  /* Adding "outline"/box to skip-link + size adjusments */
+}
+
+.site-header {
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
   color: black;
+  padding: 20px;
+  /* Size changes and spacing for better readability */
+}
+
+.main-nav {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: black;
+  padding: 5px;
+  /* Size changes and spacing for better readability */
 }
